@@ -1,0 +1,148 @@
+* {
+  border: 0;
+  outline: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #565673;
+  padding: 0 10px;
+}
+
+.card {
+  background: #fff;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  margin: 0 10px;
+}
+
+.searchInput {
+  border: 0;
+  width: 0;
+  transition: width 0.2s ease-in;  
+}
+
+searchInput.active {
+  width: 150px;
+}
+
+searchInput:focus {
+  outline: none;
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.blogpostContainer {
+  width: 70%;
+  background: #fff;
+}
+
+.sidebarContainer {
+  width: 27%;
+  background: #fff;
+}
+
+.cardHeader span {
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  padding: 10px 0;
+  color: #565673;
+}
+
+.cardHeader span::firstChild {
+  
+}
+
+.profileImage {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.profileImage img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.personalBio {
+  font-size: 14px;
+  color: #565673;
+  font-weight: 300;
+}
+
+.blogHeader {
+  text-align: center;
+}
+
+.postTitle {
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 0; 
+  font-weight: 400;
+}
+
+.blogCategory {
+  display: block;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.postedBy {
+  font-size: 15px;
+  font-style: italics;  
+  padding: 10px 0;
+  display: block;
+  color: #6c6c6c;
+}
+
+.postImageContainer {
+  padding: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.postImageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.recentPost {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.recentPost h3 {
+  font-weight: 500;
+  color: #6c6c6c;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.recentPost span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #6c6c6c; 
+}
+
+.recentPosts {
+  padding: 20px 0;
+}
